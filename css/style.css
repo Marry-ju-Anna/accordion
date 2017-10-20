@@ -1,0 +1,41 @@
+body{
+	margin: 0; 
+	padding: 0;
+}
+*{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+.content{
+	max-width: 900px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px 0;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 44px;
+	color: rgba(255, 34, 22, 0.8);
+	text-shadow: 3px 0 3px rgba(0,0,0,.5);
+}
+h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: rgba(255, 34, 22, .4);
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h2 i.fa-2x{
+	font-size: 1.5em;
+}
+h2:hover, h2.accordion__active{
+	background-color: rgba(255, 34, 22, .6);
+	cursor: pointer;
+}
+p{
+	padding: 15px;
+	
+}
